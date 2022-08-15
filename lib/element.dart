@@ -1,9 +1,12 @@
 
 class Element {
 
-  late String _symbol;
-  late String _name;
-  late String _LatinName;
-  late int _weight;
+  late int weight;
+  late String symbol;
+  late String name;
+  late String latinName;
+
+ @override
+  String toString() => symbol;
 
 }
