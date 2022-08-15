@@ -1,12 +1,16 @@
-
 class Element {
+  int weight;
+  String symbol;
+  String name;
+  String latinName;
 
-  late int weight;
-  late String symbol;
-  late String name;
-  late String latinName;
+  Element(
+      int dataWeight, String dataSymbol, String dataName, String dataLatinName)
+      : weight = dataWeight,
+        symbol = dataSymbol,
+        name = dataName,
+        latinName = dataLatinName;
 
- @override
+  @override
   String toString() => symbol;
-
 }
