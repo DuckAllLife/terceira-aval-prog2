@@ -1,10 +1,12 @@
 
 class Molecule implements Comparable{
   
-  final Map<String, int> _moleculeFormula = {};
+  final List<Map<String, int>> _moleculeFormula = [];
+  final String description;
 
-  Molecule(String molecularFormula){
-    
+  Molecule({required String formula, required String name}){
+    var regex = RegExp('([A-Z][a-z]?)([0-9]*)');
+  
   }
 
   get formula => ;
