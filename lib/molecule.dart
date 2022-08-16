@@ -1,8 +1,22 @@
 
-class Molecule {
+class Molecule implements Comparable{
   
-  final String? _moleculeFormula;
+  final Map<String, int> _moleculeFormula = {};
 
-  Molecule(String molecularFormula): _moleculeFormula = molecularFormula;
+  Molecule(String molecularFormula){
+    
+  }
+
+  get formula => ;
+
+  set formula(String ){}
+
+  get weight => ;
+  
+  @override
+  int compareTo(other) {
+    // TODO: implement compareTo
+    throw UnimplementedError();
+  }
 
 }

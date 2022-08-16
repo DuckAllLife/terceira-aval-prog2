@@ -1,9 +1,9 @@
 
 class Element {
-  int weight;
-  String symbol;
-  String name;
-  String latinName;
+  int? weight;
+  String? symbol;
+  String? name;
+  String? latinName;
 
   Element(
       int dataWeight, String dataSymbol, String dataName, String dataLatinName)
@@ -13,5 +13,5 @@ class Element {
         latinName = dataLatinName;
 
   @override
-  String toString() => symbol;
+  String toString() => symbol ??= 'null';
 }

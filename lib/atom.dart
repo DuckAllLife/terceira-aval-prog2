@@ -1,6 +1,6 @@
 
 class Atom {
-  String _symbol;
+  String? _symbol;
 
   Atom(String symbolElement){
     if (_elementsList.any(symbolElement)) {
@@ -11,5 +11,5 @@ class Atom {
     }
   }
   @override
-  String toString() => _symbol;
+  String toString() => _symbol ??= 'null';
 }
