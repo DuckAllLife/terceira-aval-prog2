@@ -1,4 +1,5 @@
 import 'dart:io';
+
 import 'element.dart';
 
 typedef MyCallback = void Function(Element);
@@ -22,8 +23,10 @@ class Elements {
   }
 
   void forEach(MyCallback action) {
-    for (var elem in _elementsList) {
+    for (var elem in elementsList) {
       action(elem);
     }
   }
+
+  List<Element> get elementsList => _elementsList;
 }
