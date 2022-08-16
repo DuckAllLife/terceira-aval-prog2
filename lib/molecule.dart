@@ -59,5 +59,5 @@ class Molecule implements Comparable<Molecule> {
   }
 
   @override
-  int compareTo(other) => (this.weight - other.weight).truncate();
+  int compareTo(other) => (this.weight - other.weight);
 }
