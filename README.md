@@ -1,2 +1,5 @@
-A sample command-line application with an entrypoint in `bin/`, library code
-in `lib/`, and example unit test in `test/`.
+Terceira Avaliação de Programação - Programação Orientada a Objetos com Dart
+
+Nome dos Integrantes:
+
+Gabriel Benigno Rocha
